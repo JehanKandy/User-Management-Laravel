@@ -24,7 +24,7 @@
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
+                <i class="bi-bar-chart-steps"></i>
             </a>
           </div>
           
