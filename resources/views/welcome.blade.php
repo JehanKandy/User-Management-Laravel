@@ -24,7 +24,7 @@
                     <button class="login-btn">Login</button>
                 </div>
                 <div class="btn-group me-2" role="group" aria-label="Second group">
-                    <button type="button" class="btn btn-secondary">5</button>
+                    <button class="reg-btn">Register</button>
                 </div>
             </div>
         </div>
