@@ -15,10 +15,13 @@
 .reg-btn{
     @extend .login-btn;
 }
-
+.btn-login{
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 600px) {
     .main-btns{
         padding: 50% 0;
     }
+
 }

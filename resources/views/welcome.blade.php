@@ -22,7 +22,7 @@
             <div class="container text-center main-btns">
                 <div class="row">
                     <div class="col-lg-3"></div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 btn-login">
                         <div class="btn-group me-2" role="group" aria-label="First group">
                             <button class="login-btn">Login</button>
                         </div>
