@@ -3,6 +3,10 @@
   height: 100vh;
 }
 
+.btn-main {
+  padding: 25%;
+}
+
 .login-btn {
   padding: 10px 40px;
   border: none;
