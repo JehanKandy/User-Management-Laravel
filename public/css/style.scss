@@ -3,7 +3,7 @@
     height: 100vh;
 }
 .btn-main{
-    padding: 25% ;
+    padding: 25% 40%;
 }
 
 .login-btn{
@@ -11,7 +11,13 @@
     border: none;
     border-radius: 2px;
 }
+.reg-btn{
+    @extend .login-btn;
+}
 
 
 @media screen and (max-width: 600px) {
+    .btn-main{
+        padding: 25% 40%;
+    }
 }
