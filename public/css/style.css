@@ -3,18 +3,8 @@
   height: 100vh;
 }
 
-.btn-main {
-  padding: 25% 40%;
-}
-
 .login-btn, .reg-btn {
   padding: 10px 40px;
   border: none;
   border-radius: 2px;
-}
-
-@media screen and (max-width: 600px) {
-  .btn-main {
-    padding: 25% 40%;
-  }
 }
