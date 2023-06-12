@@ -19,7 +19,7 @@
         </div>
 
         <div class="main-content">
-            <div class="container text-center ">
+            <div class="container text-center main-btns">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="btn-group me-2" role="group" aria-label="First group">

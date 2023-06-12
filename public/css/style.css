@@ -3,6 +3,10 @@
   height: 100vh;
 }
 
+.main-btns {
+  padding: 25% 0;
+}
+
 .login-btn, .reg-btn {
   padding: 10px 40px;
   border: none;
