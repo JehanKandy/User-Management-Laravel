@@ -21,16 +21,18 @@
         <div class="main-content">
             <div class="container text-center main-btns">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3">
                         <div class="btn-group me-2" role="group" aria-label="First group">
                             <button class="login-btn">Login</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-3">
                         <div class="btn-group me-2" role="group" aria-label="Second group">
                             <button class="reg-btn">Register</button>
                         </div>
                     </div>
+                    <div class="col-lg-3"></div>
                 </div>
             </div>
         </div>
