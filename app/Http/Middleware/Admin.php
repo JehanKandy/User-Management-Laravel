@@ -24,7 +24,12 @@ class Admin
         if($user->role==1){
             return $next($request);
         }
-
+        if($user->role==2){
+            return redirect('/staff');
+        }
+        if($user->role==3){
+            return redirect('/client');
+        }
         
     }
 }
