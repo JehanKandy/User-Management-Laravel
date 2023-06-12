@@ -19,11 +19,13 @@
         </div>
 
         <div class="main-content">
-            <div class="btn-group me-2" role="group" aria-label="First group">
-                <button class="login-btn">Login</button>
-              </div>
-              <div class="btn-group me-2" role="group" aria-label="Second group">
-                <button type="button" class="btn btn-secondary">5</button>
+            <div class="btn-main">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                    <button class="login-btn">Login</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-secondary">5</button>
+                </div>
             </div>
         </div>
 
