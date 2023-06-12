@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
-use GuzzleHttp\Psr7\Request;
+use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
 
@@ -48,7 +48,24 @@ class LoginController extends Controller
         ]);
 
         if(Auth::attempt($credentials)){
-            
+            $user_role = Auth::user()->role;
+
+            switch($user_role){
+                case 1:
+                    return redirect('/admin');
+                    break;
+                case 2:
+                    return redirect('/staff');
+                    break;
+                case 3:
+                    return redirect('/client');
+                    break;
+                default:
+                    Auth::logout();
+                    return redirect('/login')->with('error','Somethin went wrong..!');
+            }
+        }else{
+            return redirect('/login');
         }
         
     }
