@@ -1,8 +1,8 @@
 :root {
-  --dash-bg-color: rgb(87, 179, 255);
-  --dash-text-color: rgb(87, 179, 255);
-  --dash-second-text-color: #bbbec5;
-  --dash-second-bg-color: #c1efde;
+  --main-bg-color: #009d63;
+  --main-text-color: #009d63;
+  --second-text-color: #bbbec5;
+  --second-bg-color: #c1efde;
 }
 
 .main-content {
@@ -30,19 +30,19 @@
   }
 }
 .primary-text {
-  color: var(--dash-text-color);
+  color: var(--main-text-color);
 }
 
 .second-text {
-  color: var(--dash-second-text-color);
+  color: var(--second-text-color);
 }
 
 .primary-bg {
-  background-color: var(--dash-bg-color);
+  background-color: var(--main-bg-color);
 }
 
 .secondary-bg {
-  background-color: var(--dash-second-bg-color);
+  background-color: var(--second-bg-color);
 }
 
 .rounded-full {
