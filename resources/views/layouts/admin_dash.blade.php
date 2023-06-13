@@ -12,25 +12,25 @@
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-project-diagram me-2"></i> Projects
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-chart-line me-2"></i> Analytics
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-paperclip-alt me-2"></i> Report
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-shopping-cart me-2"></i> Store Mng
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-gift me-2"></i> Products
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-comment-dot me-2"></i> Chat
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-map-marker-alt me-2"></i> Outlet
             </a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-sign-out-alt"></i> Logout
             </a>
         </div>
