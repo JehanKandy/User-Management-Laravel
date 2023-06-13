@@ -28,10 +28,10 @@
                 <i class="fas fa-comment-dot me-2"></i> Chat
             </a>
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
-                <i class="fas fa-tachometer-alt me-2"></i> Dashboard
+                <i class="fas fa-map-marker-alt me-2"></i> Outlet
             </a>
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
-                <i class="fas fa-tachometer-alt me-2"></i> Dashboard
+                <i class="fas fa-sign-out-alt"></i> Logout
             </a>
         </div>
     </div>
