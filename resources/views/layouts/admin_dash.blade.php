@@ -102,9 +102,9 @@
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-user-tie me-2"></i>Admins</a>
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                    class="fas fa-chart-line me-2"></i>Staff</a>
+                    class="fas fa-chalkboard-teacher me-2"></i>Staff</a>
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                    class="fas fa-paperclip me-2"></i>Clients</a>
+                    class="fas fa-users me-2"></i>Clients</a>
             
         </div>
     </div>
