@@ -67,5 +67,8 @@
                 </ul>
             </div>
         </nav>
+        <div class="container-fluid px-4">
+            <h3>Dashboard Content</h3>
+        </div>
     </div>
 </div>
