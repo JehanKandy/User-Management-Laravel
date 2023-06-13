@@ -1,3 +1,5 @@
+@import "root";
+
 .main-content{
     background: linear-gradient(to bottom left, #3399ff 0%, #ff33cc 100%);
     height: 100vh;
@@ -27,3 +29,6 @@
 }
 
 //Dashboard CSS
+.primary-text{
+    color: var(--dash-text-color);
+}
