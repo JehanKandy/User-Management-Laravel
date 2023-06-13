@@ -1,4 +1,4 @@
-@extends('header')
+@extends('/header')
 
 <div class="d-flex" id="wrapper">
     <!-- Sidebar -->
