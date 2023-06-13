@@ -16,7 +16,7 @@
                 <i class="fas fa-chart-line me-2"></i> Analytics
             </a>
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
-                <i class="fas fa-paperclip-alt me-2"></i> Report
+                <i class="fas fa-paperclip me-2"></i> Report
             </a>
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                 <i class="fas fa-shopping-cart me-2"></i> Store Mng
@@ -31,7 +31,7 @@
                 <i class="fas fa-map-marker-alt me-2"></i> Outlet
             </a>
             <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
-                <i class="fas fa-sign-out-alt"></i> Logout
+                <i class="fas fa-sign-out-alt me-2"></i> Logout
             </a>
         </div>
     </div>
