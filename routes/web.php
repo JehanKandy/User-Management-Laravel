@@ -34,5 +34,3 @@ Route::get('client', function(){
     return view('client');
 })->name('client')->middleware('client');
 
-Route::get('/reset-password','ResetPasswordController@create');
-Route::post('/reset-password','ResetPasswordController@store')->name('reset.password.store');
