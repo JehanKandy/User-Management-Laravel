@@ -27,12 +27,7 @@
   background-color: var(--card-color);
   padding: 30px;
   border-radius: 5px;
-  transition: 0.5s;
   margin-bottom: 10px;
-}
-
-.admin-card:hover {
-  margin: 10px;
 }
 
 .icon-admin {
