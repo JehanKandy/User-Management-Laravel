@@ -149,8 +149,7 @@
         </nav>
 
         <div class="container-fluid px-4">
-
-
+            @yield('content')
         </div>
     </div>
 </div>
