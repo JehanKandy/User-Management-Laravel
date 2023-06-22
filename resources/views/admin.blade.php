@@ -27,10 +27,23 @@
     <div class="col-lg-4">
         <div class="admin-card">
             <i class='fas fa-user-tie' style='font-size:48px'></i>
+            <p class="title-card">Admins</p>
+            <p class="body-card">50</p>
         </div>
     </div>
-    <div class="col-lg-4"><div class="admin-card">hi all</div></div>
-    <div class="col-lg-4"><div class="admin-card">hi all</div></div>
+    <div class="col-lg-4">
+        <div class="admin-card">
+            <i class='fas fa-user-tie' style='font-size:48px'></i>
+            <p class="title-card">Admins</p>
+            <p class="body-card">50</p>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="admin-card">
+            <i class='fas fa-user-tie' style='font-size:48px'></i>
+            <p class="title-card">Admins</p>
+            <p class="body-card">50</p>
+    </div>
 </div>
 
 
