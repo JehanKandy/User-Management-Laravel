@@ -22,7 +22,7 @@
 }
 .admin-card{
     background-color: var(--card-color);
-    padding: 25px;
+    padding: 30px;
     border-radius: 5px;
     transition: 0.5s;
 }
@@ -31,9 +31,6 @@
 }
 .icon-admin{
     font-size: 50px;
-}
-.title-card{
-    margin: 0 0 0 70px;
 }
 
 @media screen and (max-width: 600px) {
