@@ -27,6 +27,10 @@
   border-radius: 5px;
 }
 
+.admin-card:hover {
+  margin: 30px;
+}
+
 @media screen and (max-width: 600px) {
   .main-btns {
     padding: 50% 0;
