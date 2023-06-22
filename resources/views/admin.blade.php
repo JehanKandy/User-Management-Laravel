@@ -26,9 +26,11 @@
 <div class="row">
     <div class="col-lg-4">
         <div class="admin-card">
-            <i class='fas fa-user-tie icon-admin' ></i>
-            <p class="title-card">Admins</p>
-            <p class="body-card">50</p>
+            <div class="row">
+                <div class="col-lg-4"><i class='fas fa-user-tie icon-admin'></i></div>
+                <div class="col-lg-6">Admins</div>
+                <div class="col-lg-2">50</div>
+          </div>
         </div>
     </div>
     <div class="col-lg-4">
