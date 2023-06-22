@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Pacifico&family=Roboto&family=Rubik&display=swap");
 :root {
   --card-color: rgb(255, 255, 255);
+  --card-title: "Kanit", sans-serif;
 }
 
 .main-content {
@@ -29,11 +31,16 @@
 }
 
 .admin-card:hover {
-  margin: -10px;
+  margin: 10px;
 }
 
 .icon-admin {
   font-size: 50px;
+}
+
+.title-card {
+  font-size: 30px;
+  font-family: var(--card-title);
 }
 
 @media screen and (max-width: 600px) {

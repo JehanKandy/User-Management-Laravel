@@ -27,12 +27,15 @@
     transition: 0.5s;
 }
 .admin-card:hover{
-    margin: -10px;
+    margin: 10px;
 }
 .icon-admin{
     font-size: 50px;
 }
-
+.title-card{
+    font-size: 30px;
+    font-family: var(--card-title);
+}
 @media screen and (max-width: 600px) {
     .main-btns{
         padding: 50% 0;
