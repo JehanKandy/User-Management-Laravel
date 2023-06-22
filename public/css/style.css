@@ -36,6 +36,10 @@
   font-size: 50px;
 }
 
+.title-card {
+  margin: 0 0 0 70px;
+}
+
 @media screen and (max-width: 600px) {
   .main-btns {
     padding: 50% 0;
