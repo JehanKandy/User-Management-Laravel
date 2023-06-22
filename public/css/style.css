@@ -25,10 +25,11 @@
   background-color: var(--card-color);
   padding: 25px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 
 .admin-card:hover {
-  margin: 30px;
+  margin: -10px;
 }
 
 @media screen and (max-width: 600px) {
