@@ -22,5 +22,8 @@
     </div>
 </div> --}}
 
+<div class="admin-card">
+    hi all
+</div>
 
 @endsection
