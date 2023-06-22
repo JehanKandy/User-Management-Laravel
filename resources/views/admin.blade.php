@@ -23,6 +23,11 @@
 </div> --}}
 
 <div class="admin-card">
+    <div class="row">
+        <div class="col-lg-4">  hi all</div>
+        <div class="col-lg-4">  hi all</div>
+        <div class="col-lg-4">  hi all</div>
+    </div>
     hi all
 </div>
 
