@@ -25,6 +25,7 @@
     padding: 30px;
     border-radius: 5px;
     transition: 0.5s;
+    margin-bottom: 10px;
 }
 .admin-card:hover{
     margin: 10px;
@@ -41,9 +42,13 @@
     font-family: var(--card-title);
     padding: 10px 0;
 }
+    
 @media screen and (max-width: 620px) {
     .main-btns{
         padding: 50% 0;
+    }
+    .admin-card{
+        padding: 20px;
     }
 
 }
