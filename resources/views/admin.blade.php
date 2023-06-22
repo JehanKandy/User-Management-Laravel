@@ -27,8 +27,8 @@
     <div class="col-lg-4">
         <div class="admin-card">
             <div class="row">
-                <div class="col-lg-2"><i class='fas fa-user-tie icon-admin'></i></div>
-                <div class="col-lg-8"><p class="title-card">Admins</p></div>
+                <div class="col-lg-4"><i class='fas fa-user-tie icon-admin'></i></div>
+                <div class="col-lg-6"><p class="title-card">Admins</p></div>
                 <div class="col-lg-2"><p class="body-card">50</p></div>
           </div>
         </div>
@@ -36,8 +36,8 @@
     <div class="col-lg-4">
         <div class="admin-card">
             <div class="row">
-                <div class="col-lg-2"><i class='fas fa-chalkboard-teacher icon-admin'></i></div>
-                <div class="col-lg-8"><p class="title-card">Admins</p></div>
+                <div class="col-lg-4"><i class='fas fa-chalkboard-teacher icon-admin'></i></div>
+                <div class="col-lg-6"><p class="title-card">Admins</p></div>
                 <div class="col-lg-2"><p class="body-card">50</p></div>
           </div>
         </div>
@@ -45,8 +45,8 @@
     <div class="col-lg-4">
         <div class="admin-card">
             <div class="row">
-                <div class="col-lg-2"><i class='fas fa-users icon-admin'></i></div>
-                <div class="col-lg-8"><p class="title-card">Admins</p></div>
+                <div class="col-lg-4"><i class='fas fa-users icon-admin'></i></div>
+                <div class="col-lg-6"><p class="title-card">Admins</p></div>
                 <div class="col-lg-2"><p class="body-card">50</p></div>
             </div>
         </div>
