@@ -24,7 +24,11 @@
 
 
 <div class="row">
-    <div class="col-lg-4"><div class="admin-card"><i class='fas fa-user-tie' style='font-size:48px'></i>hi all</div></div>
+    <div class="col-lg-4">
+        <div class="admin-card">
+            <i class='fas fa-user-tie' style='font-size:48px'></i>
+        </div>
+    </div>
     <div class="col-lg-4"><div class="admin-card">hi all</div></div>
     <div class="col-lg-4"><div class="admin-card">hi all</div></div>
 </div>
