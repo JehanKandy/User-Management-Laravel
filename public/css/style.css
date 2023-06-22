@@ -1,3 +1,7 @@
+:root {
+  --card-color: white;
+}
+
 .main-content {
   background: linear-gradient(to bottom left, #3399ff 0%, #ff33cc 100%);
   height: 100vh;
@@ -18,7 +22,7 @@
 }
 
 .admin-card {
-  background-color: white;
+  background-color: var(--card-color);
 }
 
 @media screen and (max-width: 600px) {
