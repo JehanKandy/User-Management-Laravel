@@ -1,6 +1,11 @@
 @extends('layouts.admin_dash')
 
 @section('content')
-    zxczx
+    
+    <div class="admin-card">
+        hi all
+    </div>
+
+
 @endsection
 
