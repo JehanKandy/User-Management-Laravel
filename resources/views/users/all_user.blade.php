@@ -4,20 +4,23 @@
     
     <div class="admin-card">
         <table class="table">
-            <thead class="table-primary">
+            <thead>
                 <tr>
                     <th>Name</th>
                     <th>Email</th>
                     <th>Role</th>
-                    <th>Action</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach ($members as $item)
-                    <tr>
-                        <td>{{ $item->name }}</td>
-                    </tr>
-                @endforeach
+            @foreach($students as $item)
+                <tr>
+                    <td>{{ $item->name }}</td>
+                    <td>{{ $item->email }}</td>
+                    <td>{{ $item->role }}</td>
+                    <td>Action</td>
+                </tr>
+            @endforeach
             </tbody>
         </table>
     </div>
