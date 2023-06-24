@@ -13,7 +13,7 @@ class UserController extends Controller
     public function index()
     {
         $members = Member::all();
-        return view('users.all_user')->with('members', $members);
+        return view('users.index')->with('members', $members);
     }
 
     /**
