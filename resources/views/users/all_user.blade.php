@@ -13,7 +13,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($users as $item)
+                @foreach ($members as $item)
                     <td>{{ $item->name }}</td>
                 @endforeach
             </tbody>
