@@ -13,7 +13,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($collection as $item)
+                @foreach ($all_user as $item)
                     
                 @endforeach
             </tbody>
