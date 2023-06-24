@@ -45,7 +45,7 @@
                                 echo "Admin";
                             }
                             else{
-                                echo "<a href='{{ url('/users/' . $item->id . '/edit') }}' title='Edit Student'><button class='btn btn-primary btn-sm'><i class='fa fa-pencil-square-o' aria-hidden='true'></i> Edit</button></a>";
+                                echo "<a href='".{{ url('/users/' . $item->id . '/edit') }}."' title='Edit Student'><button class='btn btn-primary btn-sm'><i class='fa fa-pencil-square-o' aria-hidden='true'></i> Edit</button></a>";
                             }
                         @endphp
                         
