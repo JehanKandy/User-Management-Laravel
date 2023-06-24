@@ -4,7 +4,7 @@
     
     <div class="admin-card">
         <table class="table">
-            <thead class="tabel-primary">
+            <thead class="table-primary">
                 <tr>
                     <th>#</th>
                     <th>Name</th>
