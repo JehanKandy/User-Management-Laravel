@@ -20,6 +20,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Auth::routes([
+    'verify' => true
+]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
@@ -35,4 +38,4 @@ Route::get('client', function(){
     return view('client');
 })->name('client')->middleware('client');
 
-Route::get('/',[UserController::class, 'index']);
+Route::get('/users',[UserController::class, 'index']);
