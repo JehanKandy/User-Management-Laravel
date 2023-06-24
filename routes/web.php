@@ -38,4 +38,4 @@ Route::get('client', function(){
     return view('client');
 })->name('client')->middleware('client');
 
-Route::resource("/student", UserController::class);
+Route::resource("/users", UserController::class);
