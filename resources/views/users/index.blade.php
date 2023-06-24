@@ -38,7 +38,10 @@
                         @endphp
 
                     </td>
-                    <td>Action</td>
+                    <td>
+                        <a href="{{ url('/student/' . $item->id) }}" title="View Student"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
+                        <a href="{{ url('/student/' . $item->id . '/edit') }}" title="Edit Student"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
+                    </td>
                 </tr>
             @endforeach
             </tbody>
