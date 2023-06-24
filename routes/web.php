@@ -37,6 +37,4 @@ Route::get('client', function(){
     return view('client');
 })->name('client')->middleware('client');
 
-Route::get('users/all_users', function () {
-    return view('users\all_user');
-});
+Route::resource("/user", StudentController::class);

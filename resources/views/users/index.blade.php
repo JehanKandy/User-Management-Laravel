@@ -13,7 +13,7 @@
                 </tr>
             </thead>
             <tbody>
-            @foreach($students as $item)
+            @foreach($users as $item)
                 <tr>
                     <td>{{ $item->name }}</td>
                     <td>{{ $item->email }}</td>
