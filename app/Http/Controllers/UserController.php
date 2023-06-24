@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Student
+use App\Models\Member;
 
 class UserController extends Controller
 {
@@ -13,6 +13,7 @@ class UserController extends Controller
     public function index()
     {
         $members = Member::all();
+        return view();
     }
 
     /**
