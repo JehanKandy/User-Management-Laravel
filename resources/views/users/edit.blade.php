@@ -11,6 +11,8 @@
             <input type="radio" name="role" value="2">Staff <br>
             <input type="radio" name="role" value="3">Client <br>
 
+            <input type="submit" value="Update" class="btn btn-success">
+
         </form>
     </div>
 
