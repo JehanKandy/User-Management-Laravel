@@ -3,7 +3,15 @@
 @section('content')
     
     <div class="admin-card">
-        hi all
+        <table class="table">
+            <thead class="table-primary">
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                </tr>
+            </thead>
+        </table>
     </div>
 
 
