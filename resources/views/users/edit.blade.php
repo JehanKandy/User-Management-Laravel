@@ -24,9 +24,19 @@
                 @endphp
             </h5>
 
+            @php
+                if($members->role == 1){
+                    echo "Admin"; 
+                }
+                else{
+                    echo "
+                        <input type='radio' name='role' value='2'>Staff <br>
+                        <input type='radio' name='role' value='3'>Client <br>
+                    ";
+                }
+            @endphp
 
-            <input type="radio" name="role" value="2">Staff <br>
-            <input type="radio" name="role" value="3">Client <br>
+
 
             <input type="submit" value="Update" class="btn btn-success">
 
