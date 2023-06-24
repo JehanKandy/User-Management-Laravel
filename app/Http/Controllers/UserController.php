@@ -38,6 +38,7 @@ class UserController extends Controller
     public function show(string $id)
     {
         $members = Member::find($id);
+        return view('users.show')->with('members', $members);
     }
 
     /**
