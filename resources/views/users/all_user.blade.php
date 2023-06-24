@@ -14,7 +14,9 @@
             </thead>
             <tbody>
                 @foreach ($members as $item)
-                    <td>{{ $item->name }}</td>
+                    <tr>
+                        <td>{{ $item->name }}</td>
+                    </tr>
                 @endforeach
             </tbody>
         </table>
