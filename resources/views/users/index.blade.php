@@ -26,7 +26,7 @@
                                     echo "<h4><span class='badge bg-danger'>Admin</span></h4>";
                                     break;
                                 case 2:
-                                    echo "<h4><span class='badge bg-secondary'>Staff</span></h4>";
+                                    echo "<h4><span class='badge bg-warning'>Staff</span></h4>";
                                     break;
                                 case 3:
                                     echo "<h4><span class='badge bg-success'>Client</span></h4>";
