@@ -46,7 +46,8 @@ class UserController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $members = Member::find($id);
+        return view('users.edit')->with('members', $members);
     }
 
     /**
@@ -54,7 +55,10 @@ class UserController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $members = Member::find($id);
+        $input = $request->all();
+        $members->update($input);
+        return redirect('member')->with('flash_message', 'Member Data Updated!');  
     }
 
     /**
