@@ -6,6 +6,7 @@
         <table class="table">
             <thead class="tabel-primary">
                 <tr>
+                    <th>#</th>
                     <th>Name</th>
                     <th>Email</th>
                     <th>Role</th>
@@ -15,6 +16,7 @@
             <tbody>
             @foreach($members as $item)
                 <tr>
+                    <td><b>{{ $loop->iteration }}</b></td>
                     <td>{{ $item->name }}</td>
                     <td>{{ $item->email }}</td>
                     <td>{{ $item->role }}</td>
