@@ -11,9 +11,6 @@
             <h5>User Type : 
                 @php
                     switch ($members->role) {
-                        case 1:
-                            echo "<h4><span class='badge bg-danger'>Admin</span></h4>";
-                            break;
                         case 2:
                             echo "<h4><span class='badge bg-warning'>Staff</span></h4>";
                             break;
@@ -27,7 +24,7 @@
                 @endphp
             </h5>
 
-            <input type="radio" name="role" value="1">Admin <br>
+
             <input type="radio" name="role" value="2">Staff <br>
             <input type="radio" name="role" value="3">Client <br>
 
