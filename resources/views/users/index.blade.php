@@ -19,7 +19,25 @@
                     <td><b>{{ $loop->iteration }}</b></td>
                     <td>{{ $item->name }}</td>
                     <td>{{ $item->email }}</td>
-                    <td>{{ $item->role }}</td>
+                    <td>
+                        @php
+                            switch ($item->role) {
+                                case 1:
+                                    echo "<h2>Admin</h2>";
+                                    break;
+                                case 2:
+                                    echo "<h2>Staff</h2>";
+                                    break;
+                                case 3:
+                                    echo "<h2>Client</h2>";
+                                    break;
+                                
+                                default:                                    
+                                    break;
+                            }
+                        @endphp
+
+                    </td>
                     <td>Action</td>
                 </tr>
             @endforeach
