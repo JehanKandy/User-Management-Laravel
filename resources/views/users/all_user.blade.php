@@ -13,8 +13,8 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($all_user as $item)
-                    
+                @foreach ($users as $item)
+                    <td>{{ $item->name }}</td>
                 @endforeach
             </tbody>
         </table>
