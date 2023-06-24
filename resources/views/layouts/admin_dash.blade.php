@@ -99,11 +99,8 @@
             <a href="{{url('/admin')}}" class="list-group-item list-group-item-action bg-transparent second-text active"><i
                     class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
             <a href="{{url('/all_users')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                    class="fas fa-user-tie me-2"></i>Admins</a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                    class="fas fa-chalkboard-teacher me-2"></i>Staff</a>
-            <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                    class="fas fa-users me-2"></i>Clients</a>
+                    class="fas fa-user-tie me-2"></i>All Users</a>
+
             
         </div>
     </div>
