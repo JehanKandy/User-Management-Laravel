@@ -38,5 +38,5 @@ Route::get('client', function(){
 })->name('client')->middleware('client');
 
 Route::get('users/all_users', function () {
-    return view('all_users');
+    return view('users\all_user');
 });
