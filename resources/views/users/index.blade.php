@@ -23,13 +23,13 @@
                         @php
                             switch ($item->role) {
                                 case 1:
-                                    echo "<h2>Admin</h2>";
+                                    echo "<h2><span class='badge bg-secondary'>New</span></h2>";
                                     break;
                                 case 2:
-                                    echo "<h2>Staff</h2>";
+                                    echo "<h2><span class='badge bg-secondary'>New</span></h2>";
                                     break;
                                 case 3:
-                                    echo "<h2>Client</h2>";
+                                    echo "<h2><span class='badge bg-secondary'>New</span></h2>";
                                     break;
                                 
                                 default:                                    
