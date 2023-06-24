@@ -58,7 +58,7 @@ class UserController extends Controller
         $members = Member::find($id);
         $input = $request->all();
         $members->update($input);
-        return redirect('member')->with('flash_message', 'Member Data Updated!');  
+        return redirect('users')->with('flash_message', 'Member Data Updated!');  
     }
 
     /**
