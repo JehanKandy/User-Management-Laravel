@@ -1,4 +1,4 @@
-@extends('layouts.admin_dash')
+@extends('layouts.staff_dash')
 
 @section('content')
 {{-- <div class="container">
