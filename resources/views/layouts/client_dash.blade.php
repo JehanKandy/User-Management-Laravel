@@ -2,8 +2,8 @@
 
 <style>
     :root {
-        --main-bg-color: #a72be0;
-        --main-text-color: #a72be0;
+        --main-bg-color: #2be07c;
+        --main-text-color: #2be070;
         --second-text-color: #c3bbc5;
         --second-bg-color: #e4c1ef;
     }
@@ -30,7 +30,7 @@
 
     #wrapper {
         overflow-x: hidden;
-        background: #e8d0f3;
+        background: #d0f3df;
     }
 
     #sidebar-wrapper {
