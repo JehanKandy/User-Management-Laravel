@@ -25,9 +25,9 @@
 @php
                             
 
-$user = Auth::user();
 
-print_r($user);
+  
+print_r($id);
 
 @endphp
 
