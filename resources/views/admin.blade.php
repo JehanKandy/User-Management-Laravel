@@ -22,6 +22,14 @@
     </div>
 </div> --}}
 
+@php
+                            
+
+$user = Auth::user();
+
+print_r($user);
+
+@endphp
 
 
         <div class="admin-card">
