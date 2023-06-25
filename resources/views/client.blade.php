@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+{{-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -19,5 +19,13 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
+
+    <div class="admin-card">
+        <h2>Client Dashboard</h2><hr>
+
+        User Name : <b>@php  echo auth()->user()->name;   @endphp</b> <br>
+        User Email : <b>@php  echo auth()->user()->email;   @endphp</b>
+    </div>
+
 @endsection
