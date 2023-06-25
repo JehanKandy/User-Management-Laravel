@@ -22,7 +22,7 @@
 </div> --}}
     
     <div class="admin-card">
-        hi all
+        <h2>Staff Dashboard</h2><hr>
     </div>
 
 @endsection
