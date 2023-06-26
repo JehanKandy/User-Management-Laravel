@@ -10,4 +10,4 @@ and also user management features
 
 ## JehanKandy
 
-    [JehanKandy]()
+    [JehanKandy](https://github.com/JehanKandy)
